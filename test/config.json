@@ -1,0 +1,13 @@
+{
+  "production": {
+    "a": 9,
+    "b": 1
+  },
+  "development": {
+    "a": 3000,
+    "b": 8000,
+    "devOnly": true
+  },
+  "foo": "bar",
+  "a": 1
+}
