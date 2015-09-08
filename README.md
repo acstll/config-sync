@@ -1,7 +1,7 @@
 Config Sync
 ===========
 
-Read a single config.json file synchronously (argsv-overridable, NODE_ENV-aware). Just that.
+Read a single config.json file synchronously (argv-overridable, NODE_ENV-aware). Just that.
 
 ## License
 
