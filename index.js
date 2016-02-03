@@ -18,12 +18,8 @@ function configSync (dir) {
   }
 
   if (dirname) {
-    try {
-      var filepath = path.join(dirname, 'config.json')
-      file = require(filepath)
-    } catch (err) {
-      console.log('config-sync: Unable to locate config file at ' + filepath)
-    }
+    // Throws if nothing found
+    file = require(path.join(dirname, 'config'))
   }
 
   // Merge options from command-line
